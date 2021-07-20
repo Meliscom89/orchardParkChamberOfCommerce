@@ -1,0 +1,86 @@
+@media only screen and (min-width: 32em) {
+
+    
+.title1{
+    font-size:3em;
+    margin-top: 1.5em;
+    
+}
+.title2{
+    font-size:2em;
+}
+
+.motto{
+    font-size: 2em;
+    grid-column: 1 /3 ;
+    grid-row: 3 /4;
+}
+.logo{
+    
+    grid-column: 1 /2 ;
+    grid-row: 1 /3 ;
+}
+.navigation li:first-child {
+    display: none;
+  }
+  .navigation {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    position: static;
+  }
+  .navigation li {
+    display: inline-block;
+    border-right-style: solid;
+    border-right-color: #001e3c;
+    padding: 0.5em;
+    border-bottom-style: solid;
+    border-bottom-color: #001e3c;
+    margin-bottom:1em;
+    margin-top: 3em;
+  }
+/* Home Page Only */
+.weather{
+    top: 600px;
+    right: 50px;
+    padding: 1em;
+}
+.weather h2{
+    font-size: 2em;
+    text-align: center;
+}
+.weather div,
+.weather span{
+    font-size: 1em;
+    padding: .5em;
+}
+.c2a_join{
+    padding: 2em;
+    margin: 2em; 
+ }
+.join{
+    font-size: 1.5em;
+}
+.contact{
+    margin-top: 3em;
+}
+.map{
+    width: 90%;
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+/*Orchard Park Page*/
+.optown{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.townData{
+    grid-row: 1 / 2;
+}
+/* contact page*/
+
+.contact_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+}
