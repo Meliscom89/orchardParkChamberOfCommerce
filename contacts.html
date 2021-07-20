@@ -37,10 +37,59 @@
     </header>
   
   <main>
- 
-    
-    
-    
+    <picture>
+      <source srcset="images/chamber_commerce_800.jpg" media="(min-width:608px)and (max-width:1309px)">
+      <source srcset="images/chamber_commerce_1200.jpg" media="(min-width:1310px)">
+      <img src="images/chamber_commerce_400.jpg" 
+                  class="hero_img"
+                  alt="Orchard Park Community, working together." />
+    </picture>
+
+
+    <div class="contact_grid">
+      <h2> Contact Us</h2>
+      <h3>Contact Information</h3>
+      <p>Phone:(716)555-1234</p>
+      <p>Fax:(716)555-1235</p>
+      <p>Email: MLiscom@opcc.org</p>
+      <p>Address:1234 Main Street, Orchard Park, NY 14127</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16242.24938717568!2d-78.74850283760871!3d42.767918832751754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d3060844046d03%3A0xdd2da6ef82be0990!2sOrchard%20Park%2C%20NY%2014127!5e0!3m2!1sen!2sus!4v1626726037979!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" class="googleMap"></iframe>
+
+      <form method="get" action="ty_comment.html" >
+      <fieldset>
+        <legend>
+            Tell us what you think.
+        </legend>
+        <label class="top">First Name:* <input type="text" name="firstname"  pattern="[A-Za-z\'-]" required></label>
+        <label class="top">Last Name:* <input type="text" name="lastname"  pattern="[A-Za-z\'-]" required></label>
+        <label class="top">Email: <input type="email" name="email" placeholder="JohnDoe@mail.com"></label>
+        <label class="top">Phone Number:* <input type="tel" name="phone" required></label>
+        <label class="top"><input type="textarea" name="comment"> You're opinion</label>
+      </fieldset>
+      <input type="submit" value="Share My Opinion" class="submitBtn">
+      </form>
+    </div>
+    <div class="b_dir">
+      <div class="b_dir_card">
+        <h3 class="b_dir_title">Executive Director</h3>
+        <img src="images/director.jpg" class="b_dir_img" alt="Donald Lorentz" width="300" height="383">
+        <p class="b_dir_name">Donald Lorentz</p>
+        <p class="b_dir_email">DLorentz@opcc.org</p>
+      </div>
+      <div class="b_dir_card">
+        <h3 class="b_dir_title">Assistant Director</h3>
+        <img src="images/assoc_director.jpg" class="b_dir_img" alt="Collen Baker" width="300" height="383">
+        <p class="b_dir_name">Collen Baker</p>
+        <p class="b_dir_email">CBaker@opcc.org</p>
+      </div>
+      <div class="b_dir_card">
+        <h3 class="b_dir_title">Administrator</h3>
+        <img src="images/administrator.jpg" class="b_dir_img" alt="Dawn Jenkinson" width="300" height="383">
+        <p class="b_dir_name">Dawn Jenkinson</p>
+        <p class="b_dir_info">DJenkinson@opcc.org</p>
+      </div>
+
+    </div>
   </main>
   <footer>
     <p class="copyright">

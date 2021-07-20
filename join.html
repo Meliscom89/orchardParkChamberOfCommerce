@@ -37,12 +37,73 @@
     </header>
   
   <main>
+    <picture>
+      <source srcset="images/chamber_commerce_800.jpg" media="(min-width:608px)and (max-width:1309px)">
+      <source srcset="images/chamber_commerce_1200.jpg" media="(min-width:1310px)">
+      <img src="images/chamber_commerce_400.jpg" 
+                  class="hero_img"
+                  alt="Orchard Park Community, working together." />
+    </picture>
+
+
+    <!--Form-->
+
+    <form method="get" action="thank-you.html">
+      <fieldset>
+        <legend>
+            Your Information
+        </legend>
+        <label class="top">First Name:* <input type="text" name="firstname"  pattern="[A-Za-z\'-]" required></label>
+        <label class="top">Last Name:* <input type="text" name="lastname"  pattern="[A-Za-z\'-]" required></label>
+        <label class="top">Title: <input type="text" name="title"  pattern="[A-Za-z\'-]"></label>
+        <label class="top">Email:* <input type="email" name="email" placeholder="JohnDoe@mail.com" required></label>
+        <label class="top">Cell Phone Number: <input type="tel" name="phone"></label>
+      </fieldset>
+      <fieldset>
+        <legend id="choices">
+          Your Company Information:
+        </legend>
+        <label class="top">Business Name:* <input type="text" name="bus_name" required></label>
+        <label class="top">Business Address: <input type="text" name="bus_address"></label>
+        <label class="top">Business Website: <input type="url" name="website"></label>
+        <label class="top">Business Description: <input type="textarea" name="bus_description"></label>
+        <div><a class="benefit_link" href="#benefits">Click here for membership benefits.</a>Choose your membership level:</div> 
+        <label class="radio"><input type="radio" name="member_level" value="yes"> Non-profit ($100)</label>
+        <label class="radio"><input type="radio" name="member_level" value="yes"> Bronze ($200)</label>
+        <label class="radio"><input type="radio" name="member_level" value="yes"> Silver ($400)</label>
+        <label class="radio"><input type="radio" name="member_level" value="yes"> Gold ($1000)</label>
+      </fieldset>  
+      <input type="submit" value="Sign Up My Business" class="submitBtn">
+    </form>  
  
-    
-    
+    <section  id="benefits">
+      <h2>What is the best level for your business?</h2>
+      <section class="benefit_card">
+        <h3 class="benefit_title">Non-Profit</h3>
+        <P class="benefit_p">lisum  dolor sit amet con la reb a local organization con businesses that work together to strengthen the existing business structure and improve the performance of your business and business structure for your business structure and business structure that you are interested 
+        </P>
+      </section>
+      <section class="benefit_card">
+        <h3 class="benefit_title">Bronze</h3>
+        <P class="benefit_p">lisum  dolor sit amet con la reb a local organization con businesses that work together to strengthen the existing business structure and improve the performance of your business and business structure for your business structure and business structure that you are interested 
+        </P>
+      </section>
+      <section class="benefit_card">
+        <h3 class="benefit_title">Silver</h3>
+        <P class="benefit_p">lisum  dolor sit amet con la reb a local organization con businesses that work together to strengthen the existing business structure and improve the performance of your business and business structure for your business structure and business structure that you are interested 
+        </P>
+      </section>
+      <section class="benefit_card">
+        <h3 class="benefit_title">Gold</h3>
+        <P class="benefit_p">lisum  dolor sit amet con la reb a local organization con businesses that work together to strengthen the existing business structure and improve the performance of your business and business structure for your business structure and business structure that you are interested 
+        </P>
+    </section>
+  </section>
+  <a href="#choices" class="button">Return to filling out my form!</a>
     
   </main>
   <footer>
+    <a href="contacts.html">Contact Us</a>
     <p class="copyright">
       &copy;<span class="currentYear"></span> Orchard Park Chamber of Commerce | <a href="https://www.byui.edu/online"
         target="_blank">BYUI Online Learning

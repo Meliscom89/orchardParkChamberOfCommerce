@@ -38,17 +38,20 @@
   
   <main>
     <picture>
-      <source srcset="images/temp_img.jpg" media="(min-width:608px)and (max-width:1309px)">
-      <source srcset="images/temp_img.jpg" media="(min-width:1310px)">
-      <img src="images/temp_img.jpg" 
+      <source srcset="images/woods_800.jpg" media="(min-width:608px)and (max-width:1309px)">
+      <source srcset="images/woods_1200.jpg" media="(min-width:1310px)">
+      <img src="images/woods_400.jpg" 
                   class="hero_img"
                   alt="Downtown Orchard Park Chamber of Commerce">
-    
+    </picture>
     <section class="weather">
       <h2>Current Weather</h2> 
-      <div class="w_title">It is currently <span class="cur_desc"></span> </div>
-      <div class="w_title">Current Temperature: <span class="cur_temp"></span></div> 
-      <div class="w_title">Current Humidity: <span class="cur_humidity"></span></div>     
+      <div class="w_title">Current weather is: </div>
+      <span class="cur_desc"></span> 
+      <div class="w_title">Current Temperature: </div>
+      <span class="cur_temp"></span> 
+      <div class="w_title">Current Humidity: </div>
+      <span class="cur_humidity"></span>    
     </section>
 
     <div class="c2a_join">
@@ -60,16 +63,26 @@
       </p>
     </section>
 
-    <h3>3 Day Forecast</h3>
-    <div class="fiveDay">
-    <ul class="forecast">
-      <li class="forecastDay"><div class="day"></div> <div class="temp"></div><img src="" class="fiveD_Pic" alt="" /></li>
     
-      <li class="forecastDay"><div class="day"></div> <div class="temp"></div><img src="" class="fiveD_Pic"  alt="" /></li>
-
-      <li class="forecastDay"><div class="day"></div> <div class="temp"></div><img src="" class="fiveD_Pic" alt="" /></li>
-    </ul>
+    <div class="threeDay">
+    <h3>3 Day Forecast</h3>
+    <section class="weather_card1">
+      <div class="day1"></div> 
+      <div class="temp1"></div>
+      <img src="" class="threeD_pic1" alt=""/>
+    </section>
+    <section class="weather_card2">
+      <div class="day2"></div> 
+      <div class="temp2"></div>
+      <img src="" class="threeD_pic2"  alt=""/>
+    </section>
+    <section class="weather_card3">
+      <div class="day3"></div>
+      <div class="temp3"></div>
+      <img src="" class="threeD_pic3" alt=""/>
+    </section>
     </div>
+
     <section class="business_section">
       <h3>Local Businesses</h3>
       <article class="business_card">
@@ -88,18 +101,42 @@
         <p>comapany motto</p>
       </article>
     </section>
+    
+    <div class="events">
+      <h2>Upcoming Events</h2>
+      <section  class="card">
+        <h3 class="event_name"></h3>
+        <div class="event_date"></div>
+        <div class="event_time"></div>
+        <div class="event_location"></div>
+      </section>
+      <section class="card">
+        <h3 class="event_name"></h3>
+        <div class="event_date"></div>
+        <div class="event_time"></div>
+        <div class="event_location"></div>
+      </section>
+      <section class="card">
+        <h3 class="event_name"></h3>
+        <div class="event_date"></div>
+        <div class="event_time"></div>
+        <div class="event_location"></div>
+      </section>
+
+
     <div class="contact">
-      <h3>Contact Us:</h3>
+      <div class="contact_info">
+        <h3>Contact Us:</h3>
      
-      <p>
-        Address: 12 N 1st E Preston, ID 83263
-      </p>
-      <p>
-        Phone:  (999)501-9999
-      </p>
-      Email:  weatherOrNot@won.com
-   
-    <img src="" class="map" alt="Map of Orchard Park NY">
+        <p class="contact_title">
+          Address:</p> <p class="contact_text">123 Center St. <p class="contact_text">Orchard Park, NY 14127</p>
+        </p>
+        <p class="contact_title">
+          Phone: </p> <p class="contact_text">(716)501-1234
+        </p>
+        <p class="contact_title">Email: </p> <p class="contact_text"> weatherOrNot@won.com</p>
+    </div>
+    <img src="images/map_300.jpg" width="300" height="363" class="map" alt="Map of Orchard Park NY">
 
   <a href="https://www.facebook.com/opnychamber/" target="_blank">  
       <img src="images/facebook_400.jpg" class="socialMedia" alt="facebook" width="400" height="400">
@@ -122,16 +159,18 @@
 
   </footer>
   <script src="js/js.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/events.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-  <script>
-    WebFont.load({
+  <script>  
+  WebFont.load({
       google:{
         families:[
-          'noto sans tc', 'cinzel decorative'
+          'Chivo', 'Cinzel Decorative'
         ]
       }
     })
-  </script>
+  </script> 
 </body>
 
 </html>
