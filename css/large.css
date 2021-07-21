@@ -98,6 +98,20 @@
     #benefits :nth-child(5){
         grid-column: 2 / 3;
     }
-   
+   /*contacts Page*/
+
+   .b_dir{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.b_dir :first-child{
+    grid-column: 1 /2;
+}
+.b_dir :nth-child(2){
+    grid-column: 2 /3;
+}
+.b_dir :nth-child(3){
+    grid-column: 3 /4;
+}
 
 }

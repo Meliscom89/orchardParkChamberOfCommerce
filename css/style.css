@@ -91,10 +91,6 @@ a {
   font-size: 1rem;
 }
 
-.respond .active {
-  background-color: #001e3c;
-  color: #abadb0;
-}
 
 .respond a:visited {
   color: #004b00;
@@ -110,6 +106,7 @@ a {
   background-color: #001e3c;
   color: #fff0dc;
 }
+
 a:visited {
   color: #fff0dc;
   background-color: #004b00;
@@ -117,6 +114,14 @@ a:visited {
 a:hover {
   background-color: #001e3c;
   color: #fff0dc;
+}
+.active {
+    color: #fff0dc;
+    background-color: #001e3c;
+}
+.respond.active {
+  background-color: #001e3c;
+  color: #abadb0;
 }
 
 .hero_img {
@@ -162,6 +167,21 @@ footer p {
   font-size: 0.5em;
   grid-column: 2 /3;
 }
+.alert{
+    background-color:red;
+    color: yellow;
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+}
+.alert button{
+    background-color:yellow;
+    color: red;
+    position: relative;
+    top: -.75em;
+    right: -14.5em;
+}
+
 .c2a_join {
   padding: 1em;
   margin: 1em;
@@ -421,9 +441,16 @@ form label.top input:required:valid {
 .benefit_card{
     border: 1px solid #004b00;
 }
+.benefit_list li{
+    color: #fff0dc;
+    margin: 2em;
+    text-align: left;
+}
 
 /* Contacts Page*/
-
+.contact_grid{
+    padding: 32px;
+}
 .contact_grid h2{
     text-align: center;
     padding: 1em;
@@ -445,10 +472,11 @@ form label.top input:required:valid {
 }
 .googleMap{
     width: 100%;
+    height: 100%;
 }
 .b_dir_card{
     background-color: #fff0dc;
-    margin:1em;
+    margin:32px;
     padding: 1em;
     padding-bottom: 2em;
 }
