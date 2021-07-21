@@ -7,70 +7,63 @@
             "phone": "(716)662-2155",
             "e-mail": "David@WGArthur.com",
             "address": "6471 W. Quaker St., Orchard Park",
-            "website": "http://ArthursHardware.com"
+            "website": "http://www.ArthursHardware.com",
+            "logo": "arthur.jpg"
         },
         {
-            "comp_name": "W.G. Arthur Co., Inc.",
-            "name": "David N. Even",
-            "title": "Vice President",
-            "phone": "(716)662-2155",
-            "e-mail": "David@WGArthur.com",
-            "address": "6471 W. Quaker St., Orchard Park",
-            "website": "http://ArthursHardware.com"
+            "comp_name": "MetroRoberts Realty",
+            "name": "John Oakley",
+            "title": "Licensed Real Estate Salesperson",
+            "phone": "(716)662-20449",
+            "e-mail": "joaklymetroroberts@Gmail.com",
+            "address": "4124 N Buffalo St., Orchard Park",
+            "website": "https://www.metroroberts.com/",
+            "logo": "metroRoberts.jpg"
         },
         {
-            "comp_name": "W.G. Arthur Co., Inc.",
-            "name": "David N. Even",
-            "title": "Vice President",
-            "phone": "(716)662-2155",
-            "e-mail": "David@WGArthur.com",
-            "address": "6471 W. Quaker St., Orchard Park",
-            "website": "http://ArthursHardware.com"
+            "comp_name": "Thomas P.McNulty",
+            "name": "Thomas P.McNulty",
+            "title": "Photographer",
+            "phone": "(716)481-4578",
+            "address": "78 Old Farm Rd., Orchard Park",
+            "website": "http://www.McNultyOnline.com",
+            "logo": "mcnulty.jpg"
         },
         {
-            "comp_name": "W.G. Arthur Co., Inc.",
-            "name": "David N. Even",
-            "title": "Vice President",
-            "phone": "(716)662-2155",
-            "e-mail": "David@WGArthur.com",
-            "address": "6471 W. Quaker St., Orchard Park",
-            "website": "http://ArthursHardware.com"
+            "comp_name": "Feldman's Lawn and Plowing",
+            "name": "Nate Feldman",
+            "title": "Owner",
+            "phone": "(716)480-9886",
+            "address": "24 Braunview Way",
+            "website": "https://www.facebook.com/FeldmansLawnandPlowing",
+            "logo": "feldmans.jpg"
         },
         {
-            "comp_name": "W.G. Arthur Co., Inc.",
-            "name": "David N. Even",
-            "title": "Vice President",
-            "phone": "(716)662-2155",
-            "e-mail": "David@WGArthur.com",
-            "address": "6471 W. Quaker St., Orchard Park",
-            "website": "http://ArthursHardware.com"
+            "comp_name": "Clean AF Services LLC",
+            "name": "Amanda & Sara Mobus",
+            "title": "Owners",
+            "phone": "(716)604-4360",
+            "e-mail": "cleanafservicesllc@gmail.com",
+            "address": "466 Belmont Ave., Tonawanda",
+            "website": "http://www.cleanafservicesllc.com",
+            "logo": "clean_services.jpg"
         },
         {
-            "comp_name": "W.G. Arthur Co., Inc.",
-            "name": "David N. Even",
-            "title": "Vice President",
-            "phone": "(716)662-2155",
-            "e-mail": "David@WGArthur.com",
-            "address": "6471 W. Quaker St., Orchard Park",
-            "website": "http://ArthursHardware.com"
+            "comp_name": "Painting by WK",
+            "name": "Will Klas",
+            "title": "Owner",
+            "phone": "(716)374-21407",
+            "address": "Painting with Klas",
+            "website": "http://www.paintingbyWK.com",
+            "logo": "klas.jpg"
         },
         {
-            "comp_name": "W.G. Arthur Co., Inc.",
-            "name": "David N. Even",
-            "title": "Vice President",
-            "phone": "(716)662-2155",
-            "e-mail": "David@WGArthur.com",
-            "address": "6471 W. Quaker St., Orchard Park",
-            "website": "http://ArthursHardware.com"
-        },
-        {
-            "comp_name": "W.G. Arthur Co., Inc.",
-            "name": "David N. Even",
-            "title": "Vice President",
-            "phone": "(716)662-2155",
-            "e-mail": "David@WGArthur.com",
-            "address": "6471 W. Quaker St., Orchard Park",
-            "website": "http://ArthursHardware.com"
+            "comp_name": "Lifetime: Picture Framing",
+            "phone": "(716)662-1800",
+            "e-mail": "Framer01@aol.com",
+            "address": "6485 W. Quaker St., Orchard Park",
+            "website": "https://www.facebook.com/LifetimePictureFraming/",
+            "logo": "framing.jpg"
         }
     ]
 }
