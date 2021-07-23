@@ -26,7 +26,7 @@
       <div class="motto">Supporting local businesses for over 100 years.</div>
       <nav class="nav">
         <ul class="navigation">
-          <li><a class="hamButton"> &#9776 Menu </a></li>
+          <li><a class="hamButton"> &#9776; Menu </a></li>
           <li><a href="index.html">Home</a></li>
           <li><a href="orchard-park.html" >Orchard Park</a></li>
           <li><a href="join.html" class="active">Join</a></li>
@@ -66,7 +66,7 @@
         <label class="top">Business Name:* <input type="text" name="bus_name" required></label>
         <label class="top">Business Address: <input type="text" name="bus_address"></label>
         <label class="top">Business Website: <input type="url" name="website"></label>
-        <label class="top">Business Description: <input type="textarea" name="bus_description"></label>
+        <label class="top">Business Description: <textarea name="bus_description" rows="6"></textarea></label>
         <div><a class="benefit_link" href="#benefits">Click here for membership benefits.</a>Choose your membership level:</div> 
         <label class="radio"><input type="radio" name="member_level" value="yes"> Non-profit ($100)</label>
         <label class="radio"><input type="radio" name="member_level" value="yes"> Bronze ($200)</label>
@@ -86,25 +86,26 @@
       <section class="benefit_card">
         <h3 class="benefit_title">Bronze</h3>
         <P class="benefit_p">This membership level of the Chamber of Commerce offers multiple benefits. Among those benefits are: 
-          <ul class="benefit_list">
-            <li>Ads in both the online directory and a printed directory.</li>
-            <li>Acess to "After Hours Mixers" for networking.</li>
-            <li>Membership also adds legitimacy to your business.</li>
-          </ul>
         </P>
+        <ul class="benefit_list">
+          <li>Ads in both the online directory and a printed directory.</li>
+          <li>Acess to "After Hours Mixers" for networking.</li>
+          <li>Membership also adds legitimacy to your business.</li>
+        </ul>
+       
       </section>
       <section class="benefit_card">
         <h3 class="benefit_title">Silver</h3>
-        <P class="benefit_p">This membership level of the Chamber of Commerce offers multiple benefits in addition to all the benefits of the bronze membership level, it also offers the following benefits: 
+        <P class="benefit_p">This membership level of the Chamber of Commerce offers multiple benefits in addition to all the benefits of the bronze membership level, it also offers the following benefits: </P>
           <ul class="benefit_list">
             <li>Free newsletter advertising</li>
             <li>Member to member discounts</li>
           </ul>
-        </P>
+        
       </section>
       <section class="benefit_card">
         <h3 class="benefit_title">Gold</h3>
-        <P class="benefit_p">This membership level of the Chamber of Commerce offers multiple benefits in addition to all the benefits of the silver and bronze membership levels, it also offers the following benefits: 
+        <P class="benefit_p">This membership level of the Chamber of Commerce offers multiple benefits in addition to all the benefits of the silver and bronze membership levels, it also offers the following benefits:</P> 
           <ul class="benefit_list">
             <li>A "Featured Member" on the website homepage</li>
             <li>5% discount on Chamber events</li>
@@ -113,7 +114,7 @@
             <li>Affordable payroll assistance</li>
             <li>Reduced electricity costs</li>
           </ul>
-        </P>
+        
     </section>
   </section>
   <a href="#choices" class="button">Return to filling out my form!</a>
@@ -129,7 +130,8 @@
     <p>Last Updated: <span class="lastUpdate"></span></p>
   </footer>
   <script src="js/js.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
     WebFont.load({
       google:{
         families:[

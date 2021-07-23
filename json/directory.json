@@ -11,6 +11,33 @@
             "logo": "arthur.jpg"
         },
         {
+            "comp_name": "Clean AF Services LLC",
+            "name": "Amanda & Sara Mobus",
+            "title": "Owners",
+            "phone": "(716)604-4360",
+            "e-mail": "cleanafservicesllc@gmail.com",
+            "address": "466 Belmont Ave., Tonawanda",
+            "website": "http://www.cleanafservicesllc.com",
+            "logo": "clean_services.jpg"
+        },
+        {
+            "comp_name": "Feldman's Lawn and Plowing",
+            "name": "Nate Feldman",
+            "title": "Owner",
+            "phone": "(716)480-9886",
+            "address": "24 Braunview Way",
+            "website": "https://www.facebook.com/FeldmansLawnandPlowing",
+            "logo": "feldmans.jpg"
+        },
+        {
+            "comp_name": "Lifetime: Picture Framing",
+            "phone": "(716)662-1800",
+            "e-mail": "Framer01@aol.com",
+            "address": "6485 W. Quaker St., Orchard Park",
+            "website": "https://www.facebook.com/LifetimePictureFraming/",
+            "logo": "framing.jpg"
+        },
+        {
             "comp_name": "MetroRoberts Realty",
             "name": "John Oakley",
             "title": "Licensed Real Estate Salesperson",
@@ -29,25 +56,8 @@
             "website": "http://www.McNultyOnline.com",
             "logo": "mcnulty.jpg"
         },
-        {
-            "comp_name": "Feldman's Lawn and Plowing",
-            "name": "Nate Feldman",
-            "title": "Owner",
-            "phone": "(716)480-9886",
-            "address": "24 Braunview Way",
-            "website": "https://www.facebook.com/FeldmansLawnandPlowing",
-            "logo": "feldmans.jpg"
-        },
-        {
-            "comp_name": "Clean AF Services LLC",
-            "name": "Amanda & Sara Mobus",
-            "title": "Owners",
-            "phone": "(716)604-4360",
-            "e-mail": "cleanafservicesllc@gmail.com",
-            "address": "466 Belmont Ave., Tonawanda",
-            "website": "http://www.cleanafservicesllc.com",
-            "logo": "clean_services.jpg"
-        },
+        
+        
         {
             "comp_name": "Painting by WK",
             "name": "Will Klas",
@@ -56,14 +66,7 @@
             "address": "Painting with Klas",
             "website": "http://www.paintingbyWK.com",
             "logo": "klas.jpg"
-        },
-        {
-            "comp_name": "Lifetime: Picture Framing",
-            "phone": "(716)662-1800",
-            "e-mail": "Framer01@aol.com",
-            "address": "6485 W. Quaker St., Orchard Park",
-            "website": "https://www.facebook.com/LifetimePictureFraming/",
-            "logo": "framing.jpg"
         }
+      
     ]
 }

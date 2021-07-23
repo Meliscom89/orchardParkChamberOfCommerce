@@ -13,7 +13,7 @@
         font-size: 4em;
     }
     .weather{
-        top: 1000px;
+        top: 800px;
         right: 100px;
         padding: 2em;
     }
@@ -46,9 +46,17 @@
     .contact{
         margin-top: 6em;
     }
-
-    .purpose h2{
+    .contact_info h3{
         font-size: 5em;
+    }
+    .contact_info .contact_title {
+        font-size: 3em;
+    }
+    .contact_info .contact_text {
+          font-size:2em;
+    }
+    .purpose h2{
+        font-size: 4em;
     }
     .purpose p{
         font-size: 2em;
@@ -56,15 +64,18 @@
     .threeDay h3{
         font-size: 5em;
     }
-    .threeDay section div{
+    .threeDay div div{
         font-size: 3em;
     }
-    .threeDay section img{
+    .threeDay div img{
         margin-left: 25%;
         margin-right: 25%;
         width: 50%;
     }
     .business_section h3{
+        font-size: 5em;
+    }
+    .events h2{
         font-size: 5em;
     }
     /*Orchard Park Page*/
@@ -113,5 +124,28 @@
 .b_dir :nth-child(3){
     grid-column: 3 /4;
 }
+/*directory*/
+
+.dir_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ }
+ .dir_grid h2{
+     grid-column: 1 / 4;
+     font-size: 3em;
+ }
+ .dir_grid .dir_button{
+     grid-column: 1 / 4;
+     font-size: 3em;
+ }
+ .toggle{
+     display: inline-block;
+ }
+ .toggle .dir_card .dir_name{
+     font-size: 3em;
+ }
+ .toggle .dir_card .dir_website{
+     font-size: 2em;
+ }
 
 }
