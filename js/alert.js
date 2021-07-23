@@ -4,7 +4,6 @@ let apialert = 'https://api.openweathermap.org/data/2.5/onecall?lat=42.76&lon=-7
 fetch(apialert)
   .then((response) => response.json())
   .then((response) => {
-    console.log(response)
    
 let card = document.querySelector(".alert")
 

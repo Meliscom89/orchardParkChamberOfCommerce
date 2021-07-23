@@ -17,7 +17,7 @@ fetch(apiURL)
 fetch(apiURL)
   .then((respond) => respond.json())
   .then((respond) => {
-      console.log(respond);
+      
       let daysofweek = [
         "Sunday",
         "Monday",

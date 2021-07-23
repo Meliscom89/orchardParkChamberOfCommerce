@@ -5,7 +5,7 @@ fetch('../json/opcc.json')
     return response.json();
   })
   .then(json => {
-    console.log(json);
+    
 
     let x = 0
     let name = document.querySelectorAll('.card .event_name');

@@ -3,7 +3,7 @@ fetch('../json/directory.json')
     return response.json();
   })
   .then(data => {
-    console.log(data);
+  
 
     let x = 0
     let comp_name = document.querySelectorAll('.dir_name');
