@@ -7,12 +7,13 @@ fetch('../json/opcc.json')
   .then(json => {
     
 
-    let x = 0
+    let x = 0;
     let name = document.querySelectorAll('.card .event_name');
     let date = document.querySelectorAll('.card .event_date');
     let time = document.querySelectorAll('.card .event_time');
     let location = document.querySelectorAll('.card .event_location');
-    let list = json.opcc[0].events;
+    var list = json.opcc[0].events;
+    let item;
 
     for (item of list) {
   

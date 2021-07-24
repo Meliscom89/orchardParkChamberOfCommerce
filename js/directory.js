@@ -5,14 +5,15 @@ fetch('../json/directory.json')
   .then(data => {
   
 
-    let x = 0
+    let x = 0;
     let comp_name = document.querySelectorAll('.dir_name');
     let phone = document.querySelectorAll('.dir_phone');
     let address = document.querySelectorAll('.dir_address');
     let img = document.querySelectorAll('.dir_logo');
-    let website = document.querySelectorAll('.dir_website')
+    let website = document.querySelectorAll('.dir_website');
     
-    let list = data.directory;
+    var list = data.directory;
+    let item;
 
     for (item of list) {
   
@@ -32,11 +33,11 @@ fetch('../json/directory.json')
 
 // list toggle
 
-// const toggle = document.querySelector(".dir_button");
+const toggle = document.querySelector(".dir_button");
 
-// const grid = document.querySelector(".dir_grid")
+const grid = document.querySelector(".dir_grid");
 
-// toggle.addEventListener("click",()=>{
-//     grid.classList.toggle("toggle");
-// },
-// false);
+toggle.addEventListener("click",()=>{
+    grid.classList.toggle("toggle");
+},
+false);

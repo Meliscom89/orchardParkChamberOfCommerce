@@ -1,11 +1,11 @@
 //Government alert banner
-let apialert = 'https://api.openweathermap.org/data/2.5/onecall?lat=42.76&lon=-78.75&units=imperial&appid=1bc218cd2519778a9f56ca037b5e02ed'
+let apialert = 'https://api.openweathermap.org/data/2.5/onecall?lat=42.76&lon=-78.75&units=imperial&appid=1bc218cd2519778a9f56ca037b5e02ed';
 
 fetch(apialert)
   .then((response) => response.json())
   .then((response) => {
    
-let card = document.querySelector(".alert")
+let card = document.querySelector(".alert");
 
 if (response.alerts === undefined){
 card.style.display = "none";}
@@ -17,9 +17,9 @@ card.style.display = "none";}
 
         function close(){
             card.style.display = "none";
-        };
+        }
 
-        const button = document.querySelector(".alert_button")
+        const button = document.querySelector(".alert_button");
 
         button.addEventListener("click",(close));
     }
