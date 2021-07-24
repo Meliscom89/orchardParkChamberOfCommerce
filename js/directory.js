@@ -1,4 +1,4 @@
-fetch('../json/directory.json')
+fetch('orchardParkChamberOfCommerce/json/directory.json')
   .then((response) => {
     return response.json();
   })
