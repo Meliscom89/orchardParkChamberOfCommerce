@@ -1,4 +1,4 @@
-fetch('https://api.jsonbin.io/b/60fb6216a917050205ced19b')
+fetch('../json/directory.json')
   .then((response) => {
     return response.json();
   })
