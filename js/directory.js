@@ -32,11 +32,11 @@ fetch('../json/directory.json')
 
 // list toggle
 
-const toggle = document.querySelector(".dir_button");
+// const toggle = document.querySelector(".dir_button");
 
-const grid = document.querySelector(".dir_grid")
+// const grid = document.querySelector(".dir_grid")
 
-toggle.addEventListener("click",()=>{
-    grid.classList.toggle("toggle");
-},
-false);
+// toggle.addEventListener("click",()=>{
+//     grid.classList.toggle("toggle");
+// },
+// false);
